@@ -186,9 +186,7 @@ h1 em, h2 em { color: var(--coral); font-style: italic; font-weight: 400; }
 .testimonial-quote { color: var(--gold); font-family: var(--display); font-size: 54px; line-height: .55; }
 .text-testimonial-card > p { color: var(--ink-soft); font-family: var(--display); font-size: 19px; line-height: 1.55; margin-top: 14px; }
 .text-testimonial-card > div { margin-top: auto; padding-top: 28px; border-top: 1px solid var(--line); }
-.text-testimonial-card strong, .text-testimonial-card div span { display: block; }
-.text-testimonial-card strong { font-size: 16px; }
-.text-testimonial-card div span { margin-top: 5px; color: var(--ink-soft); font-size: 12px; letter-spacing: .07em; text-transform: uppercase; }
+.text-testimonial-card strong { display: block; font-size: 16px; }
 .testimonial-note { max-width: 1160px; margin: 25px auto 0; color: var(--ink-soft); font-size: 11px; text-align: center; }
 
 .recognition { display: grid; grid-template-columns: .8fr 1.4fr; gap: clamp(60px, 8vw, 130px); align-items: center; background: #0d0f12; color: white; }

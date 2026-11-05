@@ -83,37 +83,31 @@ const testimonials = [
     quote:
       "What an amazing session on Power*N led by our in-house agile coach Manisha Agrawal. We witnessed how yielding power lies well within us yet we continuously let the YES and NO battle in our mind and let the negativity win. More often than not perfection is the enemy of progress. The role-playing was just apt for us to resonate.",
     name: "Mayukhi Sen",
-    detail: "Talent Management, Learning & DEI Lead · Aptiv TCI",
   },
   {
     quote:
       "After going through your sessions I know how to prioritise, how to be non judgemental... how to be more empathetic, different leadership styles, how to manage stress and most importantly what is the impact that I am creating with my own behaviour. These sessions were very important for me. I started taking care of myself. I evolved. I became self confident. I know my worth and I don't depend on others anymore for their validation.",
     name: "Sunetra",
-    detail: "The Leadership Power Code",
   },
   {
     quote:
       "There were days when I waited for an opportunity to knock my door, or was sitting through my comfort zone, thinking I would never be able to break barriers or that I could achieve excellence beyond a limit. After I started my transformation journey with you, and 6 months now—I was able to open my own doors, even open hidden ones, grab my own opportunities, break my own barriers and learn and grow to a level that once seemed impossible to even achieve. And yes, I am able to reinforce the fact that, yes indeed, I am too cut out for excellence, and I have Manisha to help me realise my journey and make me realise my own power and potential!",
     name: "Sudha",
-    detail: "Limitless Success Program",
   },
   {
     quote:
       "I had the privilege of undertaking leadership coaching with Manisha, and the experience was nothing short of transformative! Her sessions were a deep dive into self-discovery, clarity, understanding responsibilities, decision-making, and powerful communication. Manisha's insightful guidance and supportive approach helped me uncover my strengths and identify areas for growth. Her ability to foster clarity and confidence in decision-making is truly remarkable. Plus, her emphasis on effective communication has significantly boosted my leadership skills. Manisha also provided invaluable techniques for handling emotions, which have been crucial in maintaining composure and resilience in challenging situations.",
     name: "Roopa Mahishi",
-    detail: "Gen AI Solutioning · Cloud Solutioning · NASSCOM Tech Advisor",
   },
   {
     quote:
       "Manisha's workshop is focused towards bringing confidence, clarity and lifting women up. This workshop will be very helpful for you to get your goals clear and start working towards those. Also, it can help you change your mindset towards positivity.",
     name: "Pooja Toonwal",
-    detail: "Recommends Manisha Agrawal",
   },
   {
     quote:
       "Manisha ma'am has been a powerful guiding force in my journey. Her coaching helped me rebuild my confidence, especially during interviews, and gave me a mindset that genuinely uplifted me. The affirmations she taught and the simple routine she helped me follow made me feel grounded, positive, and ready to face challenges. Because of her, I walk into opportunities with clarity and self belief. She truly changed the way I see myself.",
     name: "Saanchi",
-    detail: "Webinar",
   },
 ]
 
@@ -678,13 +672,12 @@ export default function App() {
           </div>
 
           <div className="text-testimonial-grid">
-            {testimonials.map(({ quote, name, detail }) => (
+            {testimonials.map(({ quote, name }) => (
               <article className="text-testimonial-card" key={name}>
                 <span className="testimonial-quote">“</span>
                 <p>{quote}</p>
                 <div>
                   <strong>{name}</strong>
-                  {detail && <span>{detail}</span>}
                 </div>
               </article>
             ))}
