@@ -1,0 +1,10 @@
+{
+  "description": "The application’s purpose and audience cannot be determined from the provided request.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
